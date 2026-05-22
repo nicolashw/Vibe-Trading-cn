@@ -255,7 +255,7 @@ export function CandlestickChart({ data, markers, indicators, height = 500 }: Pr
   }, [data, markers, baseData, indicatorCache, extraIndicators, sub, range, overlays, dark]);
 
   if (data.length === 0) {
-    return <div className="text-muted-foreground text-sm p-4">No price data</div>;
+    return <div className="text-muted-foreground text-sm p-4">无价格数据</div>;
   }
 
   return (
